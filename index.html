@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa; /* Color de fondo suave */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #00838f; /* Color de texto en tono azul */
+            margin-bottom: 10px;
+        }
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff; /* Fondo blanco para la sección de perfil */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .profile img {
+            border-radius: 50%; /* Imagen redonda */
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .projects {
+            width: 100%;
+            max-width: 800px; /* Limita el ancho de la sección de proyectos */
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project {
+            background-color: #ffeb3b; /* Color de fondo amarillo pastel */
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .project:hover {
+            transform: scale(1.05); /* Efecto de hover para dinamismo */
+        }
+        .project a {
+            text-decoration: none;
+            color: #00838f; /* Color azul para los enlaces */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Portafolio de Proyectos</h1>
+    </header>
+
+    <section class="profile">
+        <!-- Asegúrate de que la ruta de la imagen sea correcta -->
+        <img src="img/foto .jpg.jpg" alt="Mi Foto"> <!-- Cambia "foto.jpeg" por la ruta de tu foto -->
+        <h2>Hola, soy Erci Chanel Genao Sierra</h2>
+        <p>Desarrolladora Web | Modelo | Servicio al Cliente</p>
+    </section>
+
+    <div class="projects">
+        <div class="project">
+            <h2>Calculadora con JavaScript y CSS</h2>
+            <p>Proyecto de una calculadora funcional utilizando JavaScript y diseño en CSS.</p>
+            <a href=" https://genaoerci555.github.io/Calculadora-con-Javascript-CSS-Html-/" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="project">
+            <h2>Layout Básico</h2>
+            <p>Una estructura básica de página web utilizando HTML y CSS.</p>
+            <a href="https://genaoerci555.github.io/Layout-/" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="project">
+            <h2>Spa Marisol</h2>
+            <p>Un sitio web diseñado para un spa, con un estilo elegante y suave.</p>
+            <a href="https://genaoerci555.github.io/Spa-marisol/" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="project">
+            <h2>Restaurante de Café</h2>
+            <p>Proyecto de diseño web para un restaurante de café con un diseño atractivo.</p>
+            <a href="https://genaoerci555.github.io/Restaurante-de-cafe/" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="project">
+            <h2>Plantilla de Mi Portafolio</h2>
+            <p>Plantilla básica para un portafolio profesional.</p>
+            <a href=" https://genaoerci555.github.io/Plantilla-de-Mi-Portafolios-/" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="project">
+            <h2>Formulario con JavaScript</h2>
+            <p>Formulario web interactivo utilizando JavaScript para validación de datos.</p>
+            <a href="https://genaoerci555.github.io/Formulario-con-Javascript-/" target="_blank">Ver proyecto</a>
+        </div>
+    </div>
+
+</body>
+</html>
